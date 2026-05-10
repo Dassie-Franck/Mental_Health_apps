@@ -203,7 +203,82 @@ npx tailwindcss init -p
 - **Collègue** — Développeur
 
 ---
+############################################################### FONCTIONALITER A RESPECTER ##################################################
 
+Fonctionnalités complètes de ton application
+
+👤 MODULE 1 — Authentification
+
+Inscription (nom, prénom, email, mot de passe)
+Connexion sécurisée (JWT)
+Déconnexion
+Protection des pages (routes privées)
+
+
+📊 MODULE 2 — Tableau de bord
+
+Vue générale de l'état de santé mentale
+Score de stress du jour
+Dernière humeur enregistrée
+Prochain rendez-vous
+Graphique d'évolution sur 7 jours
+
+
+📝 MODULE 3 — Auto-évaluation psychologique (PHQ-9)
+
+Questionnaire de 9 questions officielles
+Calcul automatique du score
+Interprétation du résultat :
+
+0-4 → Minimal
+5-9 → Léger
+10-14 → Modéré
+15+ → Sévère
+
+
+Historique des évaluations passées
+Alerte si score élevé
+
+
+😊 MODULE 4 — Suivi de l'humeur
+
+Enregistrement humeur quotidienne
+Niveau de stress (1 à 10)
+Note personnelle
+Graphique d'évolution (7 jours / 30 jours)
+Historique complet
+
+
+👨‍⚕️ MODULE 5 — Conseillers
+
+Liste des conseillers disponibles
+Fiche conseiller (nom, spécialité, photo)
+Statut disponible / non disponible
+
+
+📅 MODULE 6 — Rendez-vous
+
+Prendre un rendez-vous avec un conseiller
+Choisir date et heure
+Ajouter un motif
+Voir ses rendez-vous à venir
+Annuler un rendez-vous
+Statut : en attente / confirmé / annulé
+
+
+👤 MODULE 7 — Profil étudiant
+
+Voir ses informations personnelles
+Modifier son profil
+Voir son historique complet
+
+
+🎨 Caractéristiques générales
+
+Interface en français
+Design moderne avec Tailwind CSS
+Application responsive (mobile + desktop)
+Couleurs apaisantes (bleu, vert, violet)
 ## 📄 Licence
 
 Projet scolaire — 2024
